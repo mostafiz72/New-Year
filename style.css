@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.header_area{
+    text-align: center;
+    background-image: url(images/p3guaojo_happy-new-year-2022-new-year-images_625x300_31_December_21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.header_title{
+    color: #ffffff;
+    font-family: tahoma;
+}
+.header_title h4{
+    font-size: 2rem;
+}
+.header_title h1{
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.benner_area{
+    text-align: center;
+}
+.benner_area h1{
+    color: #ff0000;
+    padding: 7rem 0rem;
+    font-size: 5rem;
+}
+.benner_area p{
+    font-size: 2rem;
+    color: #ff0000;
+    padding: 10px 0px;
+}
+.benner_area h2{
+    font-size: 4rem;
+    padding: 10px 0px;
+}
+.benner{
+    width: 65%;
+    margin: auto;
+}
+.benner img{
+    width: 100%;
+    margin-top: 2rem;
+}
+.happyness{
+    background: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 280px;
+}
+.happyness_title{
+    width: 50%;
+    color: #fff;
+}
+.happyness_title h2{
+    font-family: tahoma;
+    font-size: 3.2rem;
+    padding: 50px 0px;
+    line-height: 70px;
+}
+.happyness_title p{
+    font-family: tahoma;
+    font-size: 18px;
+    line-height: 30px;
+}
+#btn{
+    padding: 10px 20px;
+    cursor: pointer;
+    background: red;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: none;
+}
+.happyness_image{
+    width: 38%;
+}
+.happyness_image img{
+    width: 100%;
+}
+.details_area{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0px;
+    background: #F9F0F0;
+    width: 100%;
+}
+.offer_title {
+    width: 32%;
+}
+.dls_title h2{
+    font-family: tahoma;
+    font-size: 30px;
+    padding: 15px 0px;
+}
+.dls_title h2 span{
+    color: #ff0000;
+}
+.best_offer {
+    margin-top: 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 20px;
+    background: #DDD0D0;
+}
+.middle_area{
+    width: 30%;
+}
+.offer_image{
+    width: 360px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 15px solid red;
+}
+.offer_image img{
+    width: 90%;
+    margin: 30px;
+}
+.offer_logo{
+    width: 30%;
+}
+.offer_title h4{
+    color: red;
+    font-size: 22px;
+}
+.offer_title h1{
+    font-size: 3rem;
+    padding: 60px 0px;
+}
+.offer_title p {
+    font-size: 20px;
+    line-height: 32px;
+}
+.offer_logo h1{
+    color: red;
+}
+.offer_logo h1 {
+    color: red;
+    font-size: 70px;
+}
+.offer_logo p {
+    font-size: 22px;
+    font-family: tahoma;
+    line-height: 42px;
+    padding: 30px 0px;
+}
+.hpy_logo {
+    width: 45%;
+}
+
+.hpy_logo img {
+    width: 100%;
+}
+.discound_area {
+    margin-top: 8rem;
+}
+.discound_title {
+    text-align: center;
+    padding: 16px 0px;
+}
+
+.discound_title h4 {
+    font-size: 30px;
+}
+
+.discound_title h1 {
+    font-size: 92px;
+    padding: 30px 0px;
+}
+
+.discound_title h1 span {
+    color: red;
+}
+
+.discound_title p {
+    font-size: 22px;
+    font-family: tahoma;
+    width: 57%;
+    line-height: 44px;
+    margin: auto;
+}
+.discound_image {
+    margin-top: 45px;
+    display: flex;
+    justify-content: end;
+}
+
+.dcnd_img {
+    background-image: url(images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.dcnd_img img {
+    position: absolute;
+    top: 120px;
+    left: -150px;
+}
+.dcnd_logo{
+    background-image: url(images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    margin-top: 5px;
+}
+.dcnd_logo img {
+    position: absolute;
+    top: -400px;
+    left: 0px;
+    width: 50%;
+}
+.gif_area{
+    margin-top: 5rem;
+}
+.gif_title h3 {
+    color:  red;
+    font-size: 30px;
+}
+
+.gif_title h2 {
+    font-size: 4rem;
+    padding: 10px 0px;
+}
+
+.gif_title p {
+    font-size: 20px;
+    font-family: tahoma;
+    line-height: 36px;
+    width: 80%;
+    padding: 20px 0px;
+}
+.gif_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bag{
+    width: 33%
+}
+.bag img{
+    width: 100%;
+}
+.shows{
+    width: 33%
+}
+.shows img{
+    width: 100%;
+}
+.glass{
+    width: 33%
+}
+.glass img{
+    width: 100%;
+}
+.contact_area {
+    margin-top: 90px;
+    background: #FFF2F2;
+    padding: 50px 0px;
+    border-radius: 20px;
+}
+.contact_logo {
+    width: 12%;
+    margin: auto;
+}
+.contact_logo img{
+    width: 100%;
+}
+.contact_title h2 {
+    font-size: 4rem;
+    padding: 14px 0px;
+    font-family: tahoma;
+    text-align: center;
+}
+
+.contact_title p {
+    font-size: 20px;
+    font-family: tahoma;
+    text-align: center;
+    width: 46%;
+    line-height: 30px;
+    margin: auto;
+    padding: 26px 0px;
+}
+.contact_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.contact_box input{
+    border: none;
+    outline: none;
+    padding: 12px 15px;
+    font-size: 26px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.contact_box button{
+    background: red;
+    padding: 10px 25px;
+    font-size: 2rem;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+footer {
+    background: #070211;
+    margin-top: 50px;
+    color: #fff;
+    padding: 8rem 0rem;
+    border-radius: 6px;
+}
+.footer_title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ftr_title_left p {
+    font-family: tahoma;
+    font-size: 24px;
+    padding: 12px 0px;
+}
+.ftr_title_right p {
+    font-family: tahoma;
+    font-size: 24px;
+    padding: 12px 0px;
+}
+.ftr_title_right p span{
+    margin-right: 10px;
+}
+.footer_icon span {
+    margin: 20px;
+    width: 64px;
+    height: 64px;
+}
+.footer_icon span img{
+    width: 100%;
+}
+.footer_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.ftr_bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.ftr_bottom p{
+    font-family: tahoma;
+    font-size: 24px;
+}

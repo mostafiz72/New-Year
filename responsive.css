@@ -1,0 +1,83 @@
+@media(max-width:1280px){
+    
+    .happyness{
+        padding: 50px 80px;
+    }
+    .offer_image {
+        width: 290px;
+        height: 290px;
+    }
+    .dcnd_logo img {
+        position: absolute;
+        top: -214px;
+        left: 0px;
+        width: 45%;
+    }
+    
+}
+@media(max-width:1024px){
+    .middle_area {
+        width: 32%;
+    }
+    .offer_image {
+        width: 230px;
+        height: 230px;
+    }
+    .dcnd_logo img {
+        position: absolute;
+        top: -162px;
+        left: 0px;
+        width: 36%;
+    }
+    .dcnd_logo {
+        height: 170px;
+    }
+}
+@media(max-width:1024px){
+    .happyness {
+        padding: 50px 20px;
+    }
+    .happyness_title h2 {
+        font-size: 2.2rem;
+        padding: 30px 0px;
+        line-height: 52px;
+    }
+    .offer_title p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .offer_image {
+        width: 175px;
+        height: 175px;
+    }
+    .offer_logo h1 {
+        font-size: 50px;
+    }
+    .offer_logo p {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 30px 0px;
+    }
+    .hpy_logo {
+        width: 60%;
+    }
+    .dcnd_logo img {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 30%;
+    }
+    .contact_title h2 {
+        font-size: 3rem;
+    }
+    .contact_title p {
+        font-size: 17px;
+        width: 77%;
+        line-height: 28px;
+    }
+    .discound_title p {
+        font-size: 18px;
+        width: 88%;
+        line-height: 30px;
+    }
+}
